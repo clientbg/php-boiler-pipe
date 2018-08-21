@@ -1,4 +1,5 @@
 # PhpBoilerPipe
+forked from dotpack/php-boiler-pipe
 
 Boilerplate Removal and Fulltext Extraction from HTML pages.
 
