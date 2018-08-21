@@ -1,20 +1,20 @@
 <?php
 
-namespace DotPack\PhpBoilerPipe;
+namespace Clientbg\PhpBoilerPipe;
 
-use DotPack\PhpBoilerPipe\Filters\Heuristics\DocumentTitleMatchClassifier;
-use DotPack\PhpBoilerPipe\Filters\Heuristics\TrailingHeadlineToBoilerplateFilter;
-use DotPack\PhpBoilerPipe\Filters\Heuristics\BlockProximityFusion;
-use DotPack\PhpBoilerPipe\Filters\Heuristics\KeepLargestBlockFilter;
-use DotPack\PhpBoilerPipe\Filters\Heuristics\ExpandTitleToContentFilter;
-use DotPack\PhpBoilerPipe\Filters\Heuristics\LargeBlockSameTagLevelToContentFilter;
-use DotPack\PhpBoilerPipe\Filters\Heuristics\ListAtEndFilter;
+use Clientbg\PhpBoilerPipe\Filters\Heuristics\DocumentTitleMatchClassifier;
+use Clientbg\PhpBoilerPipe\Filters\Heuristics\TrailingHeadlineToBoilerplateFilter;
+use Clientbg\PhpBoilerPipe\Filters\Heuristics\BlockProximityFusion;
+use Clientbg\PhpBoilerPipe\Filters\Heuristics\KeepLargestBlockFilter;
+use Clientbg\PhpBoilerPipe\Filters\Heuristics\ExpandTitleToContentFilter;
+use Clientbg\PhpBoilerPipe\Filters\Heuristics\LargeBlockSameTagLevelToContentFilter;
+use Clientbg\PhpBoilerPipe\Filters\Heuristics\ListAtEndFilter;
 
-use DotPack\PhpBoilerPipe\Filters\Simple\BoilerplateBlockFilter;
+use Clientbg\PhpBoilerPipe\Filters\Simple\BoilerplateBlockFilter;
 
-use DotPack\PhpBoilerPipe\Filters\English\TerminatingBlocksFinder;
-use DotPack\PhpBoilerPipe\Filters\English\NumWordsRulesClassifier;
-use DotPack\PhpBoilerPipe\Filters\English\IgnoreBlocksAfterContentFilter;
+use Clientbg\PhpBoilerPipe\Filters\English\TerminatingBlocksFinder;
+use Clientbg\PhpBoilerPipe\Filters\English\NumWordsRulesClassifier;
+use Clientbg\PhpBoilerPipe\Filters\English\IgnoreBlocksAfterContentFilter;
 
 class ArticleExtractor
 {

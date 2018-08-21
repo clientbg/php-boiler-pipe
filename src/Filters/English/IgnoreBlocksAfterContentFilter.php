@@ -1,11 +1,11 @@
 <?php
 
-namespace DotPack\PhpBoilerPipe\Filters\English;
+namespace Clientbg\PhpBoilerPipe\Filters\English;
 
-use DotPack\PhpBoilerPipe\Filters\IFilter;
-use DotPack\PhpBoilerPipe\TextDocument;
-use DotPack\PhpBoilerPipe\TextLabels;
-use DotPack\PhpBoilerPipe\TextBlock;
+use Clientbg\PhpBoilerPipe\Filters\IFilter;
+use Clientbg\PhpBoilerPipe\TextDocument;
+use Clientbg\PhpBoilerPipe\TextLabels;
+use Clientbg\PhpBoilerPipe\TextBlock;
 
 class IgnoreBlocksAfterContentFilter implements IFilter
 {

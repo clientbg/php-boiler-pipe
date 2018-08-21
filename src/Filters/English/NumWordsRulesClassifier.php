@@ -1,10 +1,10 @@
 <?php
 
-namespace DotPack\PhpBoilerPipe\Filters\English;
+namespace Clientbg\PhpBoilerPipe\Filters\English;
 
-use DotPack\PhpBoilerPipe\Filters\IFilter;
-use DotPack\PhpBoilerPipe\TextDocument;
-use DotPack\PhpBoilerPipe\TextBlock;
+use Clientbg\PhpBoilerPipe\Filters\IFilter;
+use Clientbg\PhpBoilerPipe\TextDocument;
+use Clientbg\PhpBoilerPipe\TextBlock;
 
 class NumWordsRulesClassifier implements IFilter
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace DotPack\PhpBoilerPipe\Filters\Heuristics;
+namespace Clientbg\PhpBoilerPipe\Filters\Heuristics;
 
-use DotPack\PhpBoilerPipe\Filters\IFilter;
-use DotPack\PhpBoilerPipe\TextDocument;
-use DotPack\PhpBoilerPipe\TextLabels;
-use DotPack\PhpBoilerPipe\TextBlock;
+use Clientbg\PhpBoilerPipe\Filters\IFilter;
+use Clientbg\PhpBoilerPipe\TextDocument;
+use Clientbg\PhpBoilerPipe\TextLabels;
+use Clientbg\PhpBoilerPipe\TextBlock;
 
 class TrailingHeadlineToBoilerplateFilter implements IFilter
 {

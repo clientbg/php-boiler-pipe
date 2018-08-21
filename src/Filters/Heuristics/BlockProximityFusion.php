@@ -1,9 +1,9 @@
 <?php
 
-namespace DotPack\PhpBoilerPipe\Filters\Heuristics;
+namespace Clientbg\PhpBoilerPipe\Filters\Heuristics;
 
-use DotPack\PhpBoilerPipe\Filters\IFilter;
-use DotPack\PhpBoilerPipe\TextDocument;
+use Clientbg\PhpBoilerPipe\Filters\IFilter;
+use Clientbg\PhpBoilerPipe\TextDocument;
 
 class BlockProximityFusion implements IFilter
 {

@@ -1,5 +1,5 @@
 # PhpBoilerPipe
-forked from dotpack/php-boiler-pipe
+- forked from dotpack/php-boiler-pipe
 
 Boilerplate Removal and Fulltext Extraction from HTML pages.
 
@@ -13,6 +13,6 @@ $path = "http://example.com/some-article.html";
 $data = file_get_contents($path);
 
 # code
-$ae = new DotPack\PhpBoilerPipe\ArticleExtractor();
+$ae = new Clientbg\PhpBoilerPipe\ArticleExtractor();
 echo $ae->getContent($data) . "\n";
 ```

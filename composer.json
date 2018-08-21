@@ -1,6 +1,6 @@
 {
-  "name": "dotpack/php-boiler-pipe",
-  "description": "PhpBoilerPipe. Boilerplate Removal and Fulltext Extraction from HTML pages",
+  "name": "clientbg/php-boiler-pipe",
+  "description": "PhpBoilerPipe. Boilerplate Removal and Fulltext Extraction from HTML pages. Based on dotpack's PHP implementation.",
   "license": "MIT",
   "keywords": [
     "extract",
@@ -14,6 +14,10 @@
     {
       "name": "Ilia Ermolin",
       "email": "dotpack@gmail.com"
+    },
+    {
+      "name": "Georgi Georgiev",
+      "email": "georgi.client@gmail.com"
     }
   ],
   "require-dev": {
@@ -22,7 +26,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "DotPack\\PhpBoilerPipe\\": "src"
+      "Clientbg\\PhpBoilerPipe\\": "src"
     }
   }
 }

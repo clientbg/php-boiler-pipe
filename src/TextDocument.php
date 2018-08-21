@@ -1,6 +1,6 @@
 <?php
 
-namespace DotPack\PhpBoilerPipe;
+namespace Clientbg\PhpBoilerPipe;
 
 class TextDocument
 {

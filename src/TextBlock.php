@@ -1,6 +1,6 @@
 <?php
 
-namespace DotPack\PhpBoilerPipe;
+namespace Clientbg\PhpBoilerPipe;
 
 class TextBlock
 {
@@ -210,13 +210,13 @@ class TextBlock
     public function __toString()
     {
         return
-            "[" . $this->startOffset . "-" . $this->endOffset .
-            ";tl=" . $this->getLevel() .
-            ";nw=" . $this->getWordCount() .
-            ";td=" . $this->getTextDensity() .
-            ";nwl=" . count($this->getWrappedLines()) .
-            ";ld=" . $this->getLinkDensity() . "]" .
-            "\t" . ($this->isContent ? "CONTENT" : "boilerplate") . "," . json_encode($this->labels) .
-            "\n" . $this->getText();
+        "[" . $this->startOffset . "-" . $this->endOffset .
+        ";tl=" . $this->getLevel() .
+        ";nw=" . $this->getWordCount() .
+        ";td=" . $this->getTextDensity() .
+        ";nwl=" . count($this->getWrappedLines()) .
+        ";ld=" . $this->getLinkDensity() . "]" .
+        "\t" . ($this->isContent ? "CONTENT" : "boilerplate") . "," . json_encode($this->labels) .
+        "\n" . $this->getText();
     }
 }

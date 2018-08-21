@@ -1,10 +1,10 @@
 <?php
 
-namespace DotPack\PhpBoilerPipe\Filters\Heuristics;
+namespace Clientbg\PhpBoilerPipe\Filters\Heuristics;
 
-use DotPack\PhpBoilerPipe\Filters\IFilter;
-use DotPack\PhpBoilerPipe\TextDocument;
-use DotPack\PhpBoilerPipe\TextLabels;
+use Clientbg\PhpBoilerPipe\Filters\IFilter;
+use Clientbg\PhpBoilerPipe\TextDocument;
+use Clientbg\PhpBoilerPipe\TextLabels;
 
 class ListAtEndFilter implements IFilter
 {

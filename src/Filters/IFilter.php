@@ -1,8 +1,8 @@
 <?php
 
-namespace DotPack\PhpBoilerPipe\Filters;
+namespace Clientbg\PhpBoilerPipe\Filters;
 
-use DotPack\PhpBoilerPipe\TextDocument;
+use Clientbg\PhpBoilerPipe\TextDocument;
 
 interface IFilter
 {
